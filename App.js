@@ -4,14 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { NavigationContainer } from "@react-navigation/native";
 
-function HomeScreen() {
- return (
-   <View style={styles.container}>
-     <Text>Open up App.js to start working on your app!</Text>
-     <StatusBar style="auto" />
-   </View>
- );
-}
+
 
 const Stack = createStackNavigator();
 
